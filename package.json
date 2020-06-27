@@ -1,0 +1,33 @@
+{
+  "name": "broadlink-ir-converter",
+  "version": "1.0.1",
+  "description": "A small converter library to convert from/to broadlink IR/RF format commands",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/haimkastner/broadlink-ir-converter"
+  },
+  "homepage": "https://github.com/haimkastner/broadlink-ir-converter",
+  "author": "Haim Kastner",
+  "license": "GNU",
+  "devDependencies": {
+    "@types/node": "^12.12.21",
+    "tslint": "^6.1.2",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {},
+  "keywords": [
+    "Tasmota",
+    "Broadlink",
+    "IR",
+    "RF",
+    "IoT"
+  ]
+}
