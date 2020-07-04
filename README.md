@@ -1,15 +1,15 @@
 # broadlink-ir-converter
 
-## A small converter library to convert from/to broadlink IR/RF format commands.
+## A small converter library to convert from/to broadlink IR format commands.
 
-The convert implementation between the broadlink IR/RF raw command format to the raw pules array used in common appliance such as Tasmota firmware.
+The convert implementation between the broadlink IR raw command format to the raw pules array used in common appliance such as Tasmota firmware.
 
 The Tasmota format converting is based on [Broadlink RM2 network protocol](https://github.com/mjg59/python-broadlink/blob/master/protocol.md).
 
 # How to send the command
 In Tasmota see [IRSend-RAW-Encoding](https://tasmota.github.io/docs/IRSend-RAW-Encoding/) how to send the pules array.
 
-And to get the pules array just watch the console (or subscribe to Tasmota messages publishing using any mqtt client) and while device detecting a IR/RF pules it will be shown a "IrReceived" (for IR) message contains "RawData" pules array it's look like 
+And to get the pules array just watch the console (or subscribe to Tasmota messages publishing using any mqtt client) and while device detecting a IR pules it will be shown a "IrReceived" message contains "RawData" pules array it's look like 
 ```json
 {"IrReceived":{"Protocol":"GREE","Bits":64,"Data":"0x0x190C6050000000F0","Repeat":0,"IRHVAC":{"Vendor":"GREE" ............},"RawData":[9084,4338,740,1622,.........],"RawDataInfo":[139,139,0]}}
 ```

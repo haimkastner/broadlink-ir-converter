@@ -1,7 +1,7 @@
 {
   "name": "broadlink-ir-converter",
-  "version": "1.0.1",
-  "description": "A small converter library to convert from/to broadlink IR/RF format commands",
+  "version": "1.0.2",
+  "description": "A small converter library to convert from/to broadlink IR format commands",
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -27,7 +27,6 @@
     "Tasmota",
     "Broadlink",
     "IR",
-    "RF",
     "IoT"
   ]
 }
